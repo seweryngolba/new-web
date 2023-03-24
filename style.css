@@ -1,0 +1,49 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 120px;
+  background: #17408b;
+}
+
+.nav-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-options {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 7px;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-options::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background-color: orange;
+  transition: width 0.25s ease-out;
+}
+
+.nav-options:hover::before {
+  width: 100%;
+}
+
+header {
+  background: lightgrey;
+  height: 100vh;
+  width: 100vw;
+}
