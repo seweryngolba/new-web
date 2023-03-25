@@ -69,7 +69,7 @@ nav {
 
 header {
   background: url("./images/wall.jpg") top/cover no-repeat;
-  height: 100vh;
+  height: 75vh;
   width: 100vw;
 }
 
@@ -77,8 +77,90 @@ header {
 
 /* PLayers */
 
+.player-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.our-players {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.player-box {
+  width: 236px;
+  height: 330px;
+  /* background: lightcoral; */
+  border: 2px solid #17408b;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+}
+
+.player-back {
+  background: #17408b;
+  width: 236px;
+  height: 180px;
+  position: absolute;
+}
+
+.harden-team {
+  position: absolute;
+  width: 150px;
+  left: 0;
+  opacity: 0.5;
+}
+
+.player-number {
+  position: absolute;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: bold;
+  opacity: 0.5;
+  right: 10px;
+  top: 10px;
+}
+
+.players-headline {
+  font-size: 36px;
+  color: #17408b;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.full-name {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.position,
+.team-player {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.rebounds {
+  padding: 0 15px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
 .image-player {
   height: 180px;
+  z-index: 10;
 }
 
 /* end players */
