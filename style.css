@@ -42,8 +42,17 @@ nav {
   width: 100%;
 }
 
+.nav-options-image {
+  margin-top: 4px;
+}
+
+.scores {
+  height: 100px;
+  width: 100%;
+}
+
 header {
-  background: lightgrey;
+  background: url("./images/wall.jpg") top/cover no-repeat;
   height: 100vh;
   width: 100vw;
 }
