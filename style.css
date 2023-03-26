@@ -71,6 +71,57 @@ header {
   background: url("./images/wall.jpg") top/cover no-repeat;
   height: 75vh;
   width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  /* display: flex;
+  align-items: center; */
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 450px;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #ffffff;
+  width: 430px;
+  padding: 40px 0;
+}
+
+.main-button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 50px;
+  background: #17408b;
+  border: 3px solid #17408b;
+  border-radius: 10px;
+}
+
+.main-button:hover {
+  color: #17408b;
+  background: #ffffff;
+  border: 3px solid #17408b;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
 }
 
 /* END LANDING */
@@ -85,14 +136,12 @@ header {
 .our-players {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .player-box {
   width: 236px;
   height: 330px;
-  /* background: lightcoral; */
-  border: 2px solid #17408b;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -105,6 +154,31 @@ header {
   width: 236px;
   height: 180px;
   position: absolute;
+}
+
+.purple {
+  background: rgb(86, 1, 134);
+}
+
+.orange {
+  background-color: rgb(87, 57, 1);
+}
+
+.player-down {
+  position: absolute;
+  background: #17408b;
+  opacity: 0.5;
+  width: 236px;
+  height: 150px;
+  bottom: 0;
+}
+
+.purple-down {
+  background: rgb(86, 1, 134);
+}
+
+.orange-down {
+  background-color: rgb(87, 57, 1);
 }
 
 .harden-team {
@@ -152,6 +226,13 @@ header {
   gap: 10px;
 }
 
+.stats,
+.position,
+.team-player,
+.full-name {
+  z-index: 10;
+}
+
 .rebounds {
   padding: 0 15px;
   border-left: 3px solid black;
@@ -163,4 +244,47 @@ header {
   z-index: 10;
 }
 
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+.orange-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #ffa500;
+}
+
+.blue-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #17408b;
+}
+
 /* end players */
+
+/* teams */
+
+.teams {
+  height: 960px;
+  background: linear-gradient(to right, #c9082a 50%, #17408b 50%);
+}
+
+.conf {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.team-headlines {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* end teams */
