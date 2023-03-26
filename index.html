@@ -21,7 +21,9 @@
           <li class="nav-options">
             <a class="nav-link" href="#players">PLAYERS</a>
           </li>
-          <li class="nav-options"><a class="nav-link" href="">TEAMS</a></li>
+          <li class="nav-options">
+            <a class="nav-link" href="#teams">TEAMS</a>
+          </li>
           <li class="nav-options-image">
             <a href="https://nba.com/"
               ><img src="./images/nba-logo.png" alt="NBA logo"
@@ -32,7 +34,48 @@
         </ul>
       </div>
     </nav>
-    <section class="scores"></section>
+    <section class="scores">
+      <div class="container">
+        <div class="score-boxes">
+          <div class="box-score">
+            <div class="winner">
+              <img class="score-logo" src="./images/bkn.png" alt="" />
+              <h3 class="team-name-box">Brooklyn Nets</h3>
+              <h3 class="points-box">129</h3>
+            </div>
+            <div class="loser">
+              <img class="score-logo" src="./images/heat.png" alt="" />
+              <h3 class="team-name-box loser-opc">Miami Heat</h3>
+              <h3 class="points-box loser-opc">100</h3>
+            </div>
+          </div>
+          <div class="box-score">
+            <div class="loser">
+              <img class="score-logo" src="./images/phi.png" alt="" />
+              <h3 class="team-name-box loser-opc">Philadelphia 76ers</h3>
+              <h3 class="points-box loser-opc">112</h3>
+            </div>
+            <div class="winner">
+              <img class="score-logo" src="./images/gs.png" alt="" />
+              <h3 class="team-name-box">Golden State Warriors</h3>
+              <h3 class="points-box">120</h3>
+            </div>
+          </div>
+          <div class="box-score">
+            <div class="winner">
+              <img class="score-logo" src="./images/bulls.png" alt="" />
+              <h3 class="team-name-box">Chicago Bulls</h3>
+              <h3 class="points-box">124</h3>
+            </div>
+            <div class="loser">
+              <img class="score-logo" src="./images/por.png" alt="" />
+              <h3 class="team-name-box loser-opc">Portland Trail Blazers</h3>
+              <h3 class="points-box loser-opc">96</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <header>
       <div class="container">
         <div class="main-text">
@@ -49,7 +92,7 @@
     </header>
     <section class="players">
       <div class="player-container">
-        <h2 id="players" class="players-headline">PLAYERS</h2>
+        <h2 id="players" class="headline">PLAYERS</h2>
         <div class="our-players">
           <div class="player-box">
             <div class="player-back"></div>
@@ -124,7 +167,7 @@
       <div class="container">
         <div class="teams-two">
           <div class="left">
-            <h2 class="conf">WESTERN CONFERENCE</h2>
+            <h2 class="conf" id="teams">WESTERN CONFERENCE</h2>
             <div class="team-grid">
               <img class="team-logo" src="./images/nuggets.png" alt="" />
               <img class="team-logo" src="./images/mem.png" alt="" />
@@ -168,6 +211,297 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="standings">
+      <div class="container">
+        <h2 class="headline">STANDINGS</h2>
+        <h3 class="sub-standings">WESTERN CONFERENCE</h3>
+        <table>
+          <tr>
+            <td>Team</td>
+            <td>W</td>
+            <td>L</td>
+            <td>WIN&#37;</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/nuggets.png" alt="" /> Denver
+              Nuggets
+            </td>
+            <td>50</td>
+            <td>24</td>
+            <td>0.676</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/mem.png" alt="" /> Memphis
+              Grizzlies
+            </td>
+            <td>46</td>
+            <td>27</td>
+            <td>0.630</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/kings.png" alt="" />
+              Sacramento Kings
+            </td>
+            <td>45</td>
+            <td>29</td>
+            <td>0.608</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/phx.png" alt="" /> Phoenix
+              Suns
+            </td>
+            <td>39</td>
+            <td>35</td>
+            <td>0.527</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/clip.png" alt="" /> LA
+              Clippers
+            </td>
+            <td>39</td>
+            <td>36</td>
+            <td>0.520</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/gs.png" alt="" /> Golden
+              State Warriors
+            </td>
+            <td>39</td>
+            <td>36</td>
+            <td>0.520</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/min.png" alt="" /> Minnesota
+              Timberwolves
+            </td>
+            <td>37</td>
+            <td>37</td>
+            <td>0.500</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/lal.png" alt="" /> Los
+              Angeles Lakers
+            </td>
+            <td>37</td>
+            <td>37</td>
+            <td>0.500</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/peli.png" alt="" /> New
+              Orleans Pelicans
+            </td>
+            <td>37</td>
+            <td>37</td>
+            <td>0.500</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/okc.png" alt="" /> Oklahoma
+              City Thunder
+            </td>
+            <td>36</td>
+            <td>38</td>
+            <td>0.486</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/dallas.png" alt="" /> Dallas
+              Mavericks
+            </td>
+            <td>36</td>
+            <td>38</td>
+            <td>0.486</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/jazz.png" alt="" /> Utah Jazz
+            </td>
+            <td>35</td>
+            <td>39</td>
+            <td>0.473</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/por.png" alt="" /> Portland
+              Trail Blazers
+            </td>
+            <td>32</td>
+            <td>41</td>
+            <td>0.438</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/spurs.png" alt="" /> San
+              Antonio Spurs
+            </td>
+            <td>19</td>
+            <td>55</td>
+            <td>0.257</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/rockets.png" alt="" />
+              Houston Rockets
+            </td>
+            <td>18</td>
+            <td>56</td>
+            <td>0.243</td>
+          </tr>
+        </table>
+        <h3 class="sub-standings two-tab">EASTERN CONFERENCE</h3>
+        <table>
+          <tr>
+            <td>Team</td>
+            <td>W</td>
+            <td>L</td>
+            <td>WIN&#37;</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/nuggets.png" alt="" /> Denver
+              Nuggets
+            </td>
+            <td>50</td>
+            <td>24</td>
+            <td>0.676</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/mem.png" alt="" /> Memphis
+              Grizzlies
+            </td>
+            <td>46</td>
+            <td>27</td>
+            <td>0.630</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/kings.png" alt="" />
+              Sacramento Kings
+            </td>
+            <td>45</td>
+            <td>29</td>
+            <td>0.608</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/phx.png" alt="" /> Phoenix
+              Suns
+            </td>
+            <td>39</td>
+            <td>35</td>
+            <td>0.527</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/clip.png" alt="" /> LA
+              Clippers
+            </td>
+            <td>39</td>
+            <td>36</td>
+            <td>0.520</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/gs.png" alt="" /> Golden
+              State Warriors
+            </td>
+            <td>39</td>
+            <td>36</td>
+            <td>0.520</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/min.png" alt="" /> Minnesota
+              Timberwolves
+            </td>
+            <td>37</td>
+            <td>37</td>
+            <td>0.500</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/lal.png" alt="" /> Los
+              Angeles Lakers
+            </td>
+            <td>37</td>
+            <td>37</td>
+            <td>0.500</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/peli.png" alt="" /> New
+              Orleans Pelicans
+            </td>
+            <td>37</td>
+            <td>37</td>
+            <td>0.500</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/okc.png" alt="" /> Oklahoma
+              City Thunder
+            </td>
+            <td>36</td>
+            <td>38</td>
+            <td>0.486</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/dallas.png" alt="" /> Dallas
+              Mavericks
+            </td>
+            <td>36</td>
+            <td>38</td>
+            <td>0.486</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/jazz.png" alt="" /> Utah Jazz
+            </td>
+            <td>35</td>
+            <td>39</td>
+            <td>0.473</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/por.png" alt="" /> Portland
+              Trail Blazers
+            </td>
+            <td>32</td>
+            <td>41</td>
+            <td>0.438</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/spurs.png" alt="" /> San
+              Antonio Spurs
+            </td>
+            <td>19</td>
+            <td>55</td>
+            <td>0.257</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="tab-photo" src="./images/rockets.png" alt="" />
+              Houston Rockets
+            </td>
+            <td>18</td>
+            <td>56</td>
+            <td>0.243</td>
+          </tr>
+        </table>
       </div>
     </section>
     <footer></footer>

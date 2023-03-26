@@ -63,6 +63,48 @@ nav {
   width: 100%;
 }
 
+.score-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-score {
+  width: 310px;
+  height: 90px;
+  margin-top: 5px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.winner,
+.loser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-logo {
+  width: 40px;
+  padding-left: 20px;
+}
+
+.team-name-box,
+.points-box {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.points-box {
+  margin-right: 20px;
+}
+
+.loser-opc {
+  opacity: 0.6;
+}
+
 /* END SCORES */
 
 /* LANDING */
@@ -78,8 +120,6 @@ header {
 .container {
   width: 1024px;
   margin: 0 auto;
-  /* display: flex;
-  align-items: center; */
 }
 
 .main-text {
@@ -198,7 +238,7 @@ header {
   top: 10px;
 }
 
-.players-headline {
+.headline {
   font-size: 36px;
   color: #17408b;
   font-weight: bold;
@@ -315,3 +355,39 @@ header {
 }
 
 /* end teams */
+
+/* standings */
+
+.sub-standings {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c9082a;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+tr,
+td {
+  border-top: 1px solid #17408b;
+}
+
+td {
+  padding: 10px 0 15px 0;
+  font-weight: bold;
+  align-items: center;
+}
+
+.tab-photo {
+  margin-bottom: -15px;
+  width: 40px;
+}
+
+.two-tab {
+  padding: 50px 0;
+}
+/* end standings */
