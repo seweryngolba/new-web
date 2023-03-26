@@ -271,20 +271,47 @@ header {
 /* teams */
 
 .teams {
-  height: 960px;
+  height: 850px;
   background: linear-gradient(to right, #c9082a 50%, #17408b 50%);
+}
+.teams-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.right {
+  width: 512px;
+  height: 960px;
+}
+
+.left {
+  width: 512px;
+  height: 960px;
 }
 
 .conf {
   font-size: 32px;
   color: #ffffff;
   font-weight: bold;
+  text-align: center;
+  padding: 40px 0;
 }
 
-.team-headlines {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+.team-logo {
+  width: 100px;
+}
+
+.rockets {
+  filter: contrast(0%);
 }
 
 /* end teams */
