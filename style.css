@@ -400,6 +400,39 @@ td {
 
 /* shop */
 
+.prd-list {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 30px;
+}
+
+.products {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.products-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-photo-one,
+.product-photo-three {
+  width: 300px;
+}
+
+.product-photo-two {
+  width: 200px;
+}
+
+.product-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .shop-btn {
   font-weight: bold;
   text-decoration: none;
@@ -413,6 +446,17 @@ td {
 .shop-btn:hover {
   background: #17408b;
   color: #ffffff;
+}
+
+.last-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+footer {
+  height: 100px;
+  background: #17408b;
 }
 
 /* shop end */
