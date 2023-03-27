@@ -361,18 +361,23 @@ header {
 .sub-standings {
   font-size: 24px;
   font-weight: bold;
-  color: #c9082a;
+  color: #ffffff;
   text-align: center;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  background-color: #c9082a;
 }
 
 table {
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
-tr,
-td {
+.top-tab {
+  border: none;
+}
+
+tr {
   border-top: 1px solid #17408b;
 }
 
@@ -388,6 +393,7 @@ td {
 }
 
 .two-tab {
-  padding: 50px 0;
+  margin-top: 40px;
+  background-color: #17408b;
 }
 /* end standings */
