@@ -370,7 +370,7 @@ header {
 table {
   width: 100%;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .top-tab {
@@ -397,3 +397,22 @@ td {
   background-color: #17408b;
 }
 /* end standings */
+
+/* shop */
+
+.shop-btn {
+  font-weight: bold;
+  text-decoration: none;
+  color: #17408b;
+  padding: 10px 20px;
+  border: 2px solid #17408b;
+  border-radius: 10px;
+  /* transition: background-color 0.5; */
+}
+
+.shop-btn:hover {
+  background: #17408b;
+  color: #ffffff;
+}
+
+/* shop end */
