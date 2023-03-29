@@ -151,6 +151,7 @@ header {
   background: #17408b;
   border: 3px solid #17408b;
   border-radius: 10px;
+  transition: background-color 0.5s ease-out;
 }
 
 .main-button:hover {
@@ -402,7 +403,6 @@ td {
 
 .prd-list {
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
   gap: 30px;
 }
@@ -437,14 +437,14 @@ td {
   font-weight: bold;
   text-decoration: none;
   color: #17408b;
-  padding: 10px 20px;
+  padding: 10px 25px;
   border: 2px solid #17408b;
   border-radius: 10px;
-  /* transition: background-color 0.5; */
+  transition: background-color 0.5s ease;
 }
 
 .shop-btn:hover {
-  background: #17408b;
+  background-color: #17408b;
   color: #ffffff;
 }
 
