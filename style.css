@@ -454,9 +454,13 @@ td {
   margin-bottom: 50px;
 }
 
+/* shop end */
+
 footer {
   height: 100px;
   background: #17408b;
 }
 
-/* shop end */
+.foot-photo {
+  width: 35px;
+}
