@@ -33,8 +33,10 @@
               ><img src="./images/nba-logo.png" alt="NBA logo"
             /></a>
           </li>
-          <li class="nav-options"><a class="nav-link" href="">STANDINGS</a></li>
-          <li class="nav-options"><a class="nav-link" href="">SHOP</a></li>
+          <li class="nav-options">
+            <a class="nav-link" href="#standings">STANDINGS</a>
+          </li>
+          <li class="nav-options"><a class="nav-link" href="#shop">SHOP</a></li>
         </ul>
       </div>
     </nav>
@@ -217,7 +219,7 @@
         </div>
       </div>
     </section>
-    <section class="standings">
+    <section class="standings" id="standings">
       <div class="container">
         <h2 class="headline">STANDINGS</h2>
         <h3 class="sub-standings">WESTERN CONFERENCE</h3>
@@ -509,19 +511,27 @@
         </table>
       </div>
     </section>
-    <section class="shop">
+    <section class="shop" id="shop">
       <div class="container">
         <h2 id="shop" class="headline">SHOP</h2>
         <div class="prd-list">
           <div class="products">
-            <img class="product-photo-one" src="./images/jersey.png" alt="" />
-            <img class="product-photo-two" src="./images/ball.png" alt="" />
-            <img class="product-photo-three" src="./images/cards.png" alt="" />
-          </div>
-          <div class="products-name">
-            <p class="product-text">JERSEYS</p>
-            <p class="product-text">BALLS</p>
-            <p class="product-text">CARDS</p>
+            <div class="product">
+              <img class="product-photo-one" src="./images/jersey.png" alt="" />
+              <p class="product-text">JERSEYS</p>
+            </div>
+            <div class="product">
+              <img class="product-photo-two" src="./images/ball.png" alt="" />
+              <p class="product-text">BALLS</p>
+            </div>
+            <div class="product">
+              <img
+                class="product-photo-three"
+                src="./images/cards.png"
+                alt=""
+              />
+              <p class="product-text">CARDS</p>
+            </div>
           </div>
           <div class="last-button">
             <a href="" class="shop-btn">SHOP ALL</a>
@@ -544,9 +554,15 @@
           <div class="foot-right">
             <p class="socials">Follow us on</p>
             <div class="social-icons">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
+              <a href="https://www.facebook.com/nba/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/nba/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/NBA"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
             </div>
           </div>
         </div>
